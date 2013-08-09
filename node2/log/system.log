@@ -1,0 +1,159 @@
+ INFO [main] 2013-08-09 17:31:03,782 CassandraDaemon.java (line 118) Logging initialized
+ INFO [main] 2013-08-09 17:31:03,794 CassandraDaemon.java (line 145) JVM vendor/version: Java HotSpot(TM) 64-Bit Server VM/1.6.0_51
+ INFO [main] 2013-08-09 17:31:03,794 CassandraDaemon.java (line 183) Heap size: 1046937600/1046937600
+ INFO [main] 2013-08-09 17:31:03,795 CassandraDaemon.java (line 184) Classpath: /opt/cassandra_cluster/node2/conf2:/usr/local/Cellar/cassandra/1.2.6/build/classes/main:/usr/local/Cellar/cassandra/1.2.6/build/classes/thrift:/usr/local/Cellar/cassandra/1.2.6/antlr-3.2.jar:/usr/local/Cellar/cassandra/1.2.6/apache-cassandra-1.2.6.jar:/usr/local/Cellar/cassandra/1.2.6/apache-cassandra-clientutil-1.2.6.jar:/usr/local/Cellar/cassandra/1.2.6/apache-cassandra-thrift-1.2.6.jar:/usr/local/Cellar/cassandra/1.2.6/avro-1.4.0-fixes.jar:/usr/local/Cellar/cassandra/1.2.6/avro-1.4.0-sources-fixes.jar:/usr/local/Cellar/cassandra/1.2.6/commons-cli-1.1.jar:/usr/local/Cellar/cassandra/1.2.6/commons-codec-1.2.jar:/usr/local/Cellar/cassandra/1.2.6/commons-lang-2.6.jar:/usr/local/Cellar/cassandra/1.2.6/compress-lzf-0.8.4.jar:/usr/local/Cellar/cassandra/1.2.6/concurrentlinkedhashmap-lru-1.3.jar:/usr/local/Cellar/cassandra/1.2.6/guava-13.0.1.jar:/usr/local/Cellar/cassandra/1.2.6/high-scale-lib-1.1.2.jar:/usr/local/Cellar/cassandra/1.2.6/jackson-core-asl-1.9.2.jar:/usr/local/Cellar/cassandra/1.2.6/jackson-mapper-asl-1.9.2.jar:/usr/local/Cellar/cassandra/1.2.6/jamm-0.2.5.jar:/usr/local/Cellar/cassandra/1.2.6/jbcrypt-0.3m.jar:/usr/local/Cellar/cassandra/1.2.6/jline-1.0.jar:/usr/local/Cellar/cassandra/1.2.6/json-simple-1.1.jar:/usr/local/Cellar/cassandra/1.2.6/libthrift-0.7.0.jar:/usr/local/Cellar/cassandra/1.2.6/log4j-1.2.16.jar:/usr/local/Cellar/cassandra/1.2.6/lz4-1.1.0.jar:/usr/local/Cellar/cassandra/1.2.6/metrics-core-2.0.3.jar:/usr/local/Cellar/cassandra/1.2.6/netty-3.5.9.Final.jar:/usr/local/Cellar/cassandra/1.2.6/servlet-api-2.5-20081211.jar:/usr/local/Cellar/cassandra/1.2.6/slf4j-api-1.7.2.jar:/usr/local/Cellar/cassandra/1.2.6/slf4j-log4j12-1.7.2.jar:/usr/local/Cellar/cassandra/1.2.6/snakeyaml-1.6.jar:/usr/local/Cellar/cassandra/1.2.6/snappy-java-1.0.5.jar:/usr/local/Cellar/cassandra/1.2.6/snaptree-0.1.jar:/usr/local/Cellar/cassandra/1.2.6/jamm-0.2.5.jar
+ INFO [main] 2013-08-09 17:31:03,796 CLibrary.java (line 65) JNA not found. Native methods will be disabled.
+ INFO [main] 2013-08-09 17:31:03,806 DatabaseDescriptor.java (line 132) Loading settings from file:/opt/cassandra_cluster/node2/conf2/cassandra.yaml
+ INFO [main] 2013-08-09 17:31:04,043 DatabaseDescriptor.java (line 150) Data files directories: [/opt/cassandra_cluster/node2/data]
+ INFO [main] 2013-08-09 17:31:04,043 DatabaseDescriptor.java (line 151) Commit log directory: /opt/cassandra_cluster/node2/commitlog
+ INFO [main] 2013-08-09 17:31:04,044 DatabaseDescriptor.java (line 191) DiskAccessMode 'auto' determined to be mmap, indexAccessMode is mmap
+ INFO [main] 2013-08-09 17:31:04,044 DatabaseDescriptor.java (line 205) disk_failure_policy is stop
+ INFO [main] 2013-08-09 17:31:04,048 DatabaseDescriptor.java (line 273) Global memtable threshold is enabled at 332MB
+ INFO [main] 2013-08-09 17:31:04,142 DatabaseDescriptor.java (line 401) Not using multi-threaded compaction
+ INFO [main] 2013-08-09 17:31:04,340 CacheService.java (line 111) Initializing key cache with capacity of 49 MBs.
+ INFO [main] 2013-08-09 17:31:04,346 CacheService.java (line 140) Scheduling key cache save to each 14400 seconds (going to save all keys).
+ INFO [main] 2013-08-09 17:31:04,347 CacheService.java (line 154) Initializing row cache with capacity of 0 MBs and provider org.apache.cassandra.cache.SerializingCacheProvider
+ INFO [main] 2013-08-09 17:31:04,351 CacheService.java (line 166) Scheduling row cache save to each 0 seconds (going to save all keys).
+ INFO [main] 2013-08-09 17:31:04,650 DatabaseDescriptor.java (line 535) Couldn't detect any schema definitions in local storage.
+ INFO [main] 2013-08-09 17:31:04,651 DatabaseDescriptor.java (line 540) To create keyspaces and column families, see 'help create keyspace' in the CLI, or set up a schema using the thrift system_* calls.
+ INFO [main] 2013-08-09 17:31:04,689 CommitLog.java (line 120) No commitlog files found; skipping replay
+ INFO [main] 2013-08-09 17:31:04,859 StorageService.java (line 456) Cassandra version: 1.2.6
+ INFO [main] 2013-08-09 17:31:04,859 StorageService.java (line 457) Thrift API version: 19.36.0
+ INFO [main] 2013-08-09 17:31:04,860 StorageService.java (line 458) CQL supported versions: 2.0.0,3.0.4 (default: 3.0.4)
+ INFO [main] 2013-08-09 17:31:04,884 StorageService.java (line 483) Loading persisted ring state
+ INFO [main] 2013-08-09 17:31:04,886 StorageService.java (line 564) Starting up server gossip
+ WARN [main] 2013-08-09 17:31:04,890 SystemTable.java (line 583) No host ID found, created 516ad1c2-3f09-4948-9eae-e2631458dc8b (Note: This should happen exactly once per node).
+ INFO [main] 2013-08-09 17:31:04,900 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-local@1061187254(361/361 serialized/live bytes, 15 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:04,902 Memtable.java (line 461) Writing Memtable-local@1061187254(361/361 serialized/live bytes, 15 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:04,933 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/local/system-local-ic-1-Data.db (352 bytes) for commitlog position ReplayPosition(segmentId=1376065864626, position=54220)
+ERROR [main] 2013-08-09 17:31:04,984 CassandraDaemon.java (line 458) Exception encountered during startup
+java.lang.RuntimeException: java.net.BindException: Can't assign requested address
+	at org.apache.cassandra.net.MessagingService.getServerSocket(MessagingService.java:447)
+	at org.apache.cassandra.net.MessagingService.listen(MessagingService.java:390)
+	at org.apache.cassandra.service.StorageService.joinTokenRing(StorageService.java:589)
+	at org.apache.cassandra.service.StorageService.initServer(StorageService.java:554)
+	at org.apache.cassandra.service.StorageService.initServer(StorageService.java:451)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:342)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:441)
+	at org.apache.cassandra.service.CassandraDaemon.main(CassandraDaemon.java:484)
+Caused by: java.net.BindException: Can't assign requested address
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:124)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:52)
+	at org.apache.cassandra.net.MessagingService.getServerSocket(MessagingService.java:437)
+	... 7 more
+ERROR [StorageServiceShutdownHook] 2013-08-09 17:31:05,006 CassandraDaemon.java (line 192) Exception in thread Thread[StorageServiceShutdownHook,5,main]
+java.lang.NullPointerException
+	at org.apache.cassandra.service.StorageService.stopRPCServer(StorageService.java:321)
+	at org.apache.cassandra.service.StorageService.shutdownClientServers(StorageService.java:370)
+	at org.apache.cassandra.service.StorageService.access$000(StorageService.java:88)
+	at org.apache.cassandra.service.StorageService$1.runMayThrow(StorageService.java:519)
+	at org.apache.cassandra.utils.WrappedRunnable.run(WrappedRunnable.java:28)
+	at java.lang.Thread.run(Thread.java:680)
+ INFO [main] 2013-08-09 17:31:55,297 CassandraDaemon.java (line 118) Logging initialized
+ INFO [main] 2013-08-09 17:31:55,310 CassandraDaemon.java (line 145) JVM vendor/version: Java HotSpot(TM) 64-Bit Server VM/1.6.0_51
+ INFO [main] 2013-08-09 17:31:55,310 CassandraDaemon.java (line 183) Heap size: 1046937600/1046937600
+ INFO [main] 2013-08-09 17:31:55,310 CassandraDaemon.java (line 184) Classpath: /opt/cassandra_cluster/node2/conf2:/usr/local/Cellar/cassandra/1.2.6/build/classes/main:/usr/local/Cellar/cassandra/1.2.6/build/classes/thrift:/usr/local/Cellar/cassandra/1.2.6/antlr-3.2.jar:/usr/local/Cellar/cassandra/1.2.6/apache-cassandra-1.2.6.jar:/usr/local/Cellar/cassandra/1.2.6/apache-cassandra-clientutil-1.2.6.jar:/usr/local/Cellar/cassandra/1.2.6/apache-cassandra-thrift-1.2.6.jar:/usr/local/Cellar/cassandra/1.2.6/avro-1.4.0-fixes.jar:/usr/local/Cellar/cassandra/1.2.6/avro-1.4.0-sources-fixes.jar:/usr/local/Cellar/cassandra/1.2.6/commons-cli-1.1.jar:/usr/local/Cellar/cassandra/1.2.6/commons-codec-1.2.jar:/usr/local/Cellar/cassandra/1.2.6/commons-lang-2.6.jar:/usr/local/Cellar/cassandra/1.2.6/compress-lzf-0.8.4.jar:/usr/local/Cellar/cassandra/1.2.6/concurrentlinkedhashmap-lru-1.3.jar:/usr/local/Cellar/cassandra/1.2.6/guava-13.0.1.jar:/usr/local/Cellar/cassandra/1.2.6/high-scale-lib-1.1.2.jar:/usr/local/Cellar/cassandra/1.2.6/jackson-core-asl-1.9.2.jar:/usr/local/Cellar/cassandra/1.2.6/jackson-mapper-asl-1.9.2.jar:/usr/local/Cellar/cassandra/1.2.6/jamm-0.2.5.jar:/usr/local/Cellar/cassandra/1.2.6/jbcrypt-0.3m.jar:/usr/local/Cellar/cassandra/1.2.6/jline-1.0.jar:/usr/local/Cellar/cassandra/1.2.6/json-simple-1.1.jar:/usr/local/Cellar/cassandra/1.2.6/libthrift-0.7.0.jar:/usr/local/Cellar/cassandra/1.2.6/log4j-1.2.16.jar:/usr/local/Cellar/cassandra/1.2.6/lz4-1.1.0.jar:/usr/local/Cellar/cassandra/1.2.6/metrics-core-2.0.3.jar:/usr/local/Cellar/cassandra/1.2.6/netty-3.5.9.Final.jar:/usr/local/Cellar/cassandra/1.2.6/servlet-api-2.5-20081211.jar:/usr/local/Cellar/cassandra/1.2.6/slf4j-api-1.7.2.jar:/usr/local/Cellar/cassandra/1.2.6/slf4j-log4j12-1.7.2.jar:/usr/local/Cellar/cassandra/1.2.6/snakeyaml-1.6.jar:/usr/local/Cellar/cassandra/1.2.6/snappy-java-1.0.5.jar:/usr/local/Cellar/cassandra/1.2.6/snaptree-0.1.jar:/usr/local/Cellar/cassandra/1.2.6/jamm-0.2.5.jar
+ INFO [main] 2013-08-09 17:31:55,320 CLibrary.java (line 65) JNA not found. Native methods will be disabled.
+ INFO [main] 2013-08-09 17:31:55,329 DatabaseDescriptor.java (line 132) Loading settings from file:/opt/cassandra_cluster/node2/conf2/cassandra.yaml
+ INFO [main] 2013-08-09 17:31:55,567 DatabaseDescriptor.java (line 150) Data files directories: [/opt/cassandra_cluster/node2/data]
+ INFO [main] 2013-08-09 17:31:55,567 DatabaseDescriptor.java (line 151) Commit log directory: /opt/cassandra_cluster/node2/commitlog
+ INFO [main] 2013-08-09 17:31:55,567 DatabaseDescriptor.java (line 191) DiskAccessMode 'auto' determined to be mmap, indexAccessMode is mmap
+ INFO [main] 2013-08-09 17:31:55,567 DatabaseDescriptor.java (line 205) disk_failure_policy is stop
+ INFO [main] 2013-08-09 17:31:55,572 DatabaseDescriptor.java (line 273) Global memtable threshold is enabled at 332MB
+ INFO [main] 2013-08-09 17:31:55,666 DatabaseDescriptor.java (line 401) Not using multi-threaded compaction
+ INFO [main] 2013-08-09 17:31:55,861 CacheService.java (line 111) Initializing key cache with capacity of 49 MBs.
+ INFO [main] 2013-08-09 17:31:55,868 CacheService.java (line 140) Scheduling key cache save to each 14400 seconds (going to save all keys).
+ INFO [main] 2013-08-09 17:31:55,868 CacheService.java (line 154) Initializing row cache with capacity of 0 MBs and provider org.apache.cassandra.cache.SerializingCacheProvider
+ INFO [main] 2013-08-09 17:31:55,873 CacheService.java (line 166) Scheduling row cache save to each 0 seconds (going to save all keys).
+ INFO [SSTableBatchOpen:1] 2013-08-09 17:31:55,989 SSTableReader.java (line 169) Opening /opt/cassandra_cluster/node2/data/system/local/system-local-ic-1 (352 bytes)
+ INFO [main] 2013-08-09 17:31:56,075 DatabaseDescriptor.java (line 535) Couldn't detect any schema definitions in local storage.
+ INFO [main] 2013-08-09 17:31:56,076 DatabaseDescriptor.java (line 540) To create keyspaces and column families, see 'help create keyspace' in the CLI, or set up a schema using the thrift system_* calls.
+ INFO [main] 2013-08-09 17:31:56,233 CassandraDaemon.java (line 281) completed pre-loading (1 keys) key cache.
+ INFO [main] 2013-08-09 17:31:56,237 CommitLog.java (line 125) Replaying /opt/cassandra_cluster/node2/commitlog/CommitLog-2-1376065864626.log, /opt/cassandra_cluster/node2/commitlog/CommitLog-2-1376065864627.log
+ INFO [main] 2013-08-09 17:31:56,247 CommitLogReplayer.java (line 119) Replaying /opt/cassandra_cluster/node2/commitlog/CommitLog-2-1376065864626.log
+ INFO [main] 2013-08-09 17:31:56,337 CommitLogReplayer.java (line 274) Finished reading /opt/cassandra_cluster/node2/commitlog/CommitLog-2-1376065864626.log
+ INFO [main] 2013-08-09 17:31:56,337 CommitLogReplayer.java (line 119) Replaying /opt/cassandra_cluster/node2/commitlog/CommitLog-2-1376065864627.log
+ INFO [main] 2013-08-09 17:31:56,344 CommitLogReplayer.java (line 274) Finished reading /opt/cassandra_cluster/node2/commitlog/CommitLog-2-1376065864627.log
+ INFO [main] 2013-08-09 17:31:56,372 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-local@1753137192(52/52 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,374 Memtable.java (line 461) Writing Memtable-local@1753137192(52/52 serialized/live bytes, 4 ops)
+ INFO [main] 2013-08-09 17:31:56,375 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_keyspaces@175735253(251/251 serialized/live bytes, 8 ops)
+ INFO [main] 2013-08-09 17:31:56,375 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_columns@996627145(24717/24717 serialized/live bytes, 398 ops)
+ INFO [main] 2013-08-09 17:31:56,375 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_columnfamilies@551341995(22187/22187 serialized/live bytes, 369 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,390 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/local/system-local-ic-2-Data.db (84 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=142)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,406 Memtable.java (line 461) Writing Memtable-schema_keyspaces@175735253(251/251 serialized/live bytes, 8 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,414 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_keyspaces/system-schema_keyspaces-ic-1-Data.db (223 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=142)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,414 Memtable.java (line 461) Writing Memtable-schema_columns@996627145(24717/24717 serialized/live bytes, 398 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,428 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_columns/system-schema_columns-ic-1-Data.db (4308 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=142)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,429 Memtable.java (line 461) Writing Memtable-schema_columnfamilies@551341995(22187/22187 serialized/live bytes, 369 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,440 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-1-Data.db (4594 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=142)
+ INFO [main] 2013-08-09 17:31:56,441 CommitLog.java (line 127) Log replay complete, 13 replayed mutations
+ INFO [main] 2013-08-09 17:31:56,599 StorageService.java (line 456) Cassandra version: 1.2.6
+ INFO [main] 2013-08-09 17:31:56,600 StorageService.java (line 457) Thrift API version: 19.36.0
+ INFO [main] 2013-08-09 17:31:56,600 StorageService.java (line 458) CQL supported versions: 2.0.0,3.0.4 (default: 3.0.4)
+ INFO [main] 2013-08-09 17:31:56,625 StorageService.java (line 483) Loading persisted ring state
+ INFO [main] 2013-08-09 17:31:56,627 StorageService.java (line 564) Starting up server gossip
+ INFO [main] 2013-08-09 17:31:56,637 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-local@719148673(251/251 serialized/live bytes, 9 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,638 Memtable.java (line 461) Writing Memtable-local@719148673(251/251 serialized/live bytes, 9 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,645 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/local/system-local-ic-3-Data.db (237 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=53949)
+ INFO [main] 2013-08-09 17:31:56,706 MessagingService.java (line 453) Starting Messaging Service on port 7000
+ INFO [main] 2013-08-09 17:31:56,733 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-local@753547570(86/86 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,734 Memtable.java (line 461) Writing Memtable-local@753547570(86/86 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:56,796 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/local/system-local-ic-4-Data.db (122 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=54226)
+ INFO [main] 2013-08-09 17:31:56,798 StorageService.java (line 897) JOINING: waiting for ring information
+ INFO [CompactionExecutor:1] 2013-08-09 17:31:56,803 CompactionTask.java (line 105) Compacting [SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-2-Data.db'), SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-3-Data.db'), SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-1-Data.db'), SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-4-Data.db')]
+ INFO [CompactionExecutor:1] 2013-08-09 17:31:56,824 CompactionTask.java (line 262) Compacted 4 sstables to [/opt/cassandra_cluster/node2/data/system/local/system-local-ic-5,].  795 bytes to 387 (~48% of original) in 18ms = 0.020504MB/s.  4 total rows, 1 unique.  Row merge counts were {1:0, 2:0, 3:0, 4:1, }
+ INFO [GossipStage:1] 2013-08-09 17:31:58,548 Gossiper.java (line 805) Node /127.0.0.1 is now part of the cluster
+ INFO [GossipStage:1] 2013-08-09 17:31:58,549 Gossiper.java (line 771) InetAddress /127.0.0.1 is now UP
+ INFO [GossipStage:1] 2013-08-09 17:31:58,560 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-peers@1515183889(50/50 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,561 Memtable.java (line 461) Writing Memtable-peers@1515183889(50/50 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,608 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/peers/system-peers-ic-1-Data.db (108 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=54399)
+ INFO [GossipStage:1] 2013-08-09 17:31:58,613 Gossiper.java (line 805) Node /127.0.0.2 is now part of the cluster
+ INFO [GossipStage:1] 2013-08-09 17:31:58,613 Gossiper.java (line 771) InetAddress /127.0.0.2 is now UP
+ INFO [GossipStage:1] 2013-08-09 17:31:58,614 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-peers@1738223535(247/247 serialized/live bytes, 14 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,615 Memtable.java (line 461) Writing Memtable-peers@1738223535(247/247 serialized/live bytes, 14 ops)
+ INFO [InternalResponseStage:1] 2013-08-09 17:31:58,658 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_keyspaces@452398817(389/389 serialized/live bytes, 11 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,660 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/peers/system-peers-ic-2-Data.db (302 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=55358)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,661 Memtable.java (line 461) Writing Memtable-schema_keyspaces@452398817(389/389 serialized/live bytes, 11 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,667 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_keyspaces/system-schema_keyspaces-ic-2-Data.db (284 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=57256)
+ INFO [InternalResponseStage:1] 2013-08-09 17:31:58,668 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_columnfamilies@2022121061(23303/23303 serialized/live bytes, 390 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,669 Memtable.java (line 461) Writing Memtable-schema_columnfamilies@2022121061(23303/23303 serialized/live bytes, 390 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,679 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-2-Data.db (4922 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=58041)
+ INFO [InternalResponseStage:1] 2013-08-09 17:31:58,680 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_columns@1549737032(24995/24995 serialized/live bytes, 404 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,680 Memtable.java (line 461) Writing Memtable-schema_columns@1549737032(24995/24995 serialized/live bytes, 404 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,691 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_columns/system-schema_columns-ic-2-Data.db (4432 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=58041)
+ INFO [InternalResponseStage:2] 2013-08-09 17:31:58,792 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_keyspaces@1378384728(138/138 serialized/live bytes, 3 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,793 Memtable.java (line 461) Writing Memtable-schema_keyspaces@1378384728(138/138 serialized/live bytes, 3 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,798 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_keyspaces/system-schema_keyspaces-ic-3-Data.db (174 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=60081)
+ INFO [main] 2013-08-09 17:31:58,798 StorageService.java (line 897) JOINING: schema complete, ready to bootstrap
+ INFO [InternalResponseStage:2] 2013-08-09 17:31:58,798 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_columnfamilies@711761606(1116/1116 serialized/live bytes, 21 ops)
+ INFO [main] 2013-08-09 17:31:58,799 StorageService.java (line 897) JOINING: getting bootstrap token
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,799 Memtable.java (line 461) Writing Memtable-schema_columnfamilies@711761606(1116/1116 serialized/live bytes, 21 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,804 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-3-Data.db (703 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=60081)
+ INFO [InternalResponseStage:2] 2013-08-09 17:31:58,805 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-schema_columns@234794758(278/278 serialized/live bytes, 6 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,805 Memtable.java (line 461) Writing Memtable-schema_columns@234794758(278/278 serialized/live bytes, 6 ops)
+ INFO [main] 2013-08-09 17:31:58,805 BootStrapper.java (line 137) New token will be 356242581507269238 to assume load from /127.0.0.1
+ INFO [main] 2013-08-09 17:31:58,807 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-local@1268038167(90/90 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,811 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/schema_columns/system-schema_columns-ic-3-Data.db (216 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=60081)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,812 Memtable.java (line 461) Writing Memtable-local@1268038167(90/90 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:31:58,817 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/local/system-local-ic-6-Data.db (155 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=60254)
+ INFO [main] 2013-08-09 17:31:58,825 StorageService.java (line 897) JOINING: sleeping 30000 ms for pending range setup
+ INFO [main] 2013-08-09 17:32:28,825 StorageService.java (line 897) JOINING: Starting to bootstrap...
+ INFO [Thread-13] 2013-08-09 17:32:28,861 StreamInSession.java (line 199) Finished streaming session 482edf30-0111-11e3-8025-ed65224a2e11 from /127.0.0.1
+ INFO [main] 2013-08-09 17:32:28,862 StorageService.java (line 931) Bootstrap completed! for the tokens [356242581507269238]
+ INFO [main] 2013-08-09 17:32:28,863 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-local@718377354(84/84 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:32:28,863 Memtable.java (line 461) Writing Memtable-local@718377354(84/84 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:32:28,869 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/local/system-local-ic-7-Data.db (121 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=60529)
+ INFO [main] 2013-08-09 17:32:28,871 ColumnFamilyStore.java (line 630) Enqueuing flush of Memtable-local@423699250(49/49 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:32:28,871 Memtable.java (line 461) Writing Memtable-local@423699250(49/49 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-08-09 17:32:28,877 Memtable.java (line 495) Completed flushing /opt/cassandra_cluster/node2/data/system/local/system-local-ic-8-Data.db (108 bytes) for commitlog position ReplayPosition(segmentId=1376065916197, position=60702)
+ INFO [CompactionExecutor:7] 2013-08-09 17:32:28,879 CompactionTask.java (line 105) Compacting [SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-7-Data.db'), SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-6-Data.db'), SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-8-Data.db'), SSTableReader(path='/opt/cassandra_cluster/node2/data/system/local/system-local-ic-5-Data.db')]
+ INFO [main] 2013-08-09 17:32:28,886 StorageService.java (line 1336) Node /127.0.0.3 state jump to normal
+ INFO [main] 2013-08-09 17:32:28,887 StorageService.java (line 790) Startup completed! Now serving reads.
+ INFO [CompactionExecutor:7] 2013-08-09 17:32:28,891 CompactionTask.java (line 262) Compacted 4 sstables to [/opt/cassandra_cluster/node2/data/system/local/system-local-ic-9,].  771 bytes to 452 (~58% of original) in 10ms = 0.043106MB/s.  4 total rows, 1 unique.  Row merge counts were {1:0, 2:0, 3:0, 4:1, }
+ INFO [main] 2013-08-09 17:32:28,971 Server.java (line 135) Starting listening for CQL clients on /127.0.0.3:9042...
+ INFO [main] 2013-08-09 17:32:28,983 ThriftServer.java (line 90) Binding thrift service to /127.0.0.3:9160
+ INFO [main] 2013-08-09 17:32:29,004 ThriftServer.java (line 102) Using TFramedTransport with a max frame size of 15728640 bytes.
+ INFO [main] 2013-08-09 17:32:29,011 TServerCustomFactory.java (line 47) Using synchronous/threadpool thrift server on localhost : 9160
+ INFO [Thread-15] 2013-08-09 17:32:29,011 ThriftServer.java (line 110) Listening for thrift clients...

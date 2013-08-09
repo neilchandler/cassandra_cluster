@@ -1,0 +1,6 @@
+#!/bin/sh
+CASSANDRA_INCLUDE=/opt/cassandra_cluster/node1/node1.in.sh
+export CASSANDRA_INCLUDE
+echo $CASSANDRA_HOME
+cd $CASSANDRA_HOME
+cassandra -f
